@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="roger.tinini">
+      <firstName>Roger</firstName>
+      <lastName>Tinini</lastName>
+      <title>Mrs</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>karen.arteaga</manager>
+      <personalData/>
+      <professionalData>
+        <email>roger.tinini@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="luz.torrez">
+      <firstName>Luz</firstName>
+      <lastName>Torrez</lastName>
+      <title>Mr</title>
+      <jobTitle>Administracion de Empresas</jobTitle>
+      <manager>sofia.hoyos</manager>
+      <personalData/>
+      <professionalData>
+        <email>luz.torrez@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="ivan.vargas">
+      <firstName>Ivan</firstName>
+      <lastName>Vargas</lastName>
+      <title>Mr</title>
+      <jobTitle>Licenciatura en Informatica</jobTitle>
+      <manager>sofia.hoyos</manager>
+      <personalData/>
+      <professionalData>
+        <email>ivan.vargas@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="guillermo.huampu">
+      <firstName>Guillermo</firstName>
+      <lastName>Huampu</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>alfredo.quisbert</manager>
+      <personalData/>
+      <professionalData>
+        <email>guillermo.huampu@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="ines.soruco">
+      <firstName>Ines</firstName>
+      <lastName>Soruco</lastName>
+      <title>Mr</title>
+      <jobTitle>Administracion de Empresas</jobTitle>
+      <manager>dayana.duchen</manager>
+      <personalData/>
+      <professionalData>
+        <email>ines.soruco@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="carmen.balcazar">
+      <firstName>Carmen</firstName>
+      <lastName>Balcazar</lastName>
+      <title>Mr</title>
+      <jobTitle>Administracion de Empresas</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>carmen.balcazar@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="edson.rejas">
+      <firstName>Edson</firstName>
+      <lastName>Rejas</lastName>
+      <title>Mr</title>
+      <jobTitle>Administracion de Empresas</jobTitle>
+      <manager>carmen.balcazar</manager>
+      <personalData/>
+      <professionalData>
+        <email>alvaro.iniguez@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="mery.montalvo">
+      <firstName>Mery</firstName>
+      <lastName>Montalvo</lastName>
+      <title>Mrs</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>karen.arteaga</manager>
+      <personalData/>
+      <professionalData>
+        <email>mery.montalvo@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="alfredo.quisbert">
+      <firstName>Alfredo</firstName>
+      <lastName>Quisbert</lastName>
+      <title>Mr</title>
+      <jobTitle>Licenciatura en Informatica</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>alfredo.quisbert@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="german.quisbert">
+      <firstName>German</firstName>
+      <lastName>Quisbert</lastName>
+      <title>Mr</title>
+      <jobTitle>Licenciatura en Informatica</jobTitle>
+      <manager>karen.arteaga</manager>
+      <personalData/>
+      <professionalData>
+        <email>german.quisbert@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="karen.arteaga">
+      <firstName>Karen</firstName>
+      <lastName>Arteaga</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>alfredo.quisbert</manager>
+      <personalData/>
+      <professionalData>
+        <email>karen.arteaga@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="claudia.calderon">
+      <firstName>Claudia</firstName>
+      <lastName>Calderon</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>claudia.calderon@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="marilin.choque">
+      <firstName>Marilin</firstName>
+      <lastName>Choque</lastName>
+      <title>Mrs</title>
+      <jobTitle>Analista de Desarrollo I</jobTitle>
+      <manager>sofia.hoyos</manager>
+      <personalData/>
+      <professionalData>
+        <email>marilin.choque@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="christian.prado">
+      <firstName>Christian</firstName>
+      <lastName>Prado</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>sofia.hoyos</manager>
+      <personalData/>
+      <professionalData>
+        <email>christian.prado@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="sofia.hoyos">
+      <firstName>Sofia</firstName>
+      <lastName>Hoyos</lastName>
+      <title>Mrs</title>
+      <jobTitle>Licenciatura en Informatica</jobTitle>
+      <manager>alfredo.quisbert</manager>
+      <personalData>
+        <email>sofia.hoyos@bdp.com.bo</email>
+        <phoneNumber>22157171</phoneNumber>
+      </personalData>
+      <professionalData>
+        <email>sofia.hoyos@bdp.com.bo</email>
+        <phoneNumber>1702</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="alvaro.iniguez">
+      <firstName>Alvaro</firstName>
+      <lastName>Iniguez</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingenieria de Sistemas</jobTitle>
+      <manager>sofia.hoyos</manager>
+      <personalData>
+        <email>alvaro.iniguez@bdp.com.bo</email>
+      </personalData>
+      <professionalData>
+        <email>alvaro.iniguez@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="ninoska.sandoval">
+      <firstName>Ninoska</firstName>
+      <lastName>Sandoval</lastName>
+      <title>Mrs</title>
+      <jobTitle>Human resources benefits</jobTitle>
+      <manager>carmen.balcazar</manager>
+      <personalData/>
+      <professionalData>
+        <email>ninoska.sandoval@bdp.com.bo</email>
+        <phoneNumber>591-22157171</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>70</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>19108</zipCode>
+        <city>La Paz</city>
+        <state>LP</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="alvaro.machaca">
+      <firstName>Alvaro</firstName>
+      <lastName>Machaca</lastName>
+      <title>Mr</title>
+      <jobTitle>Administracion de empresas</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>alvaro.machaca@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="vannesa.salcedo">
+      <firstName>Vannesa</firstName>
+      <lastName>Salcedo</lastName>
+      <title>Mrs</title>
+      <jobTitle>Administracion de empresas</jobTitle>
+      <manager>alvaro.machaca</manager>
+      <personalData/>
+      <professionalData>
+        <email>vannesa.salcedo@bdp.com.bo</email>
+        <phoneNumber>1738</phoneNumber>
+        <faxNumber>591-22157171</faxNumber>
+        <building>10-11-12</building>
+        <address>CALLE REYES ORTIZ NRO. 73 EDIF.: GUNDLACH</address>
+        <zipCode>591-02</zipCode>
+        <city>La Paz</city>
+        <state>La Paz</state>
+        <country>Bolivia</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="control.calidad">
+      <firstName>Control</firstName>
+      <lastName>Calidad</lastName>
+      <title>Cuenta Generica</title>
+      <personalData/>
+      <professionalData>
+        <email>control.calidad@bdp.com.bo</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="seguridad">
+      <firstName>Seguridad</firstName>
+      <lastName>Informaci&#xf3;n</lastName>
+      <title>Cuenta Generica</title>
+      <personalData/>
+      <professionalData>
+        <email>seguridad@bdp.com.bo</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="bdp">
+      <displayName>Bdp</displayName>
+    </role>
+    <role name="aprobador">
+      <displayName>Aprobador</displayName>
+    </role>
+    <role name="verificadorSistemas">
+      <displayName>VerificadorSistemas</displayName>
+    </role>
+    <role name="soporte">
+      <displayName>Soporte</displayName>
+    </role>
+    <role name="controlCalidad">
+      <displayName>ControlCalidad</displayName>
+    </role>
+    <role name="respControlCalidad">
+      <displayName>RespControlCalidad</displayName>
+    </role>
+    <role name="baseDatos">
+      <displayName>BaseDatos</displayName>
+    </role>
+    <role name="seguridadInf">
+      <displayName>SeguridadInf</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="BDP">
+      <displayName>bdp</displayName>
+      <description>This group represents the bdp department of the bdp organization</description>
+    </group>
+    <group name="JNTH" parentPath="/BDP/GATH">
+      <displayName>JEFATURA NACIONAL DE TALENTO HUMANO</displayName>
+      <description>This group represents the human resources department of the ACME organization</description>
+    </group>
+    <group name="GN" parentPath="/BDP">
+      <displayName>GERENCIA DE NEGOCIOS</displayName>
+      <description>This group represents the Negocios department of the BDP organization</description>
+    </group>
+    <group name="GATIP" parentPath="/BDP">
+      <displayName>GERENCIA DE ASISTENCIA T&#xc9;CNICA E INNOVACI&#xd3;N PRODUCTIVA</displayName>
+      <description>This group represents the infrastructure department of the ACME organization</description>
+    </group>
+    <group name="GO" parentPath="/BDP">
+      <displayName>GERENCIA DE OPERACIONES</displayName>
+      <description>This group represents the marketing department of the ACME organization</description>
+    </group>
+    <group name="JNIP" parentPath="/BDP/GSTI">
+      <displayName>JEFATURA NACIONAL DE INFRAESTRUCTURA Y PRODUCCI&#xd3;N</displayName>
+      <description>This group represents the production department of the ACME organization</description>
+    </group>
+    <group name="JNC" parentPath="/BDP/GO">
+      <displayName>JEFATURA NACIONAL DE CONTABILIDAD</displayName>
+      <description>This group represents the juridica y fideicomisos managment department of the ACME organization</description>
+    </group>
+    <group name="SGF" parentPath="/BDP/GJF">
+      <displayName>SUB GERERENCIA DE FIDEICOMISOS</displayName>
+      <description>This group represents the europe department of the ACME organization</description>
+    </group>
+    <group name="GJF" parentPath="/BDP">
+      <displayName>GERENCIA JURIDICA Y DE FIDEICOMISOS</displayName>
+      <description>This group represents the asia department of the ACME organization</description>
+    </group>
+    <group name="SJSF" parentPath="/BDP/GJF">
+      <displayName>SUBGERENCIA JUR&#xcd;DICA DE SERVICIOS FINANCIEROS</displayName>
+      <description>This group represents the latin america department of the ACME organization</description>
+    </group>
+    <group name="JNA" parentPath="/BDP/GATH">
+      <displayName>JEFATURA NACIONAL DE ADMINISTRACI&#xd3;N</displayName>
+      <description>This group represents the north america department of the ACME organization</description>
+    </group>
+    <group name="SE" parentPath="/BDP/GSTI/JNIP">
+      <displayName>SERVIDORESS</displayName>
+      <description>This group represents the research &amp; development department of the ACME organization</description>
+    </group>
+    <group name="BD" parentPath="/BDP/GSTI/JNIP">
+      <displayName>BASE DE DATOS</displayName>
+      <description>This group represents the services department of the ACME organization</description>
+    </group>
+    <group name="GSTI" parentPath="/BDP">
+      <displayName>GERENCIA DE SISTEMAS Y TECNOLOG&#xcd;A DE LA INFORMACI&#xd3;N</displayName>
+    </group>
+    <group name="GATH" parentPath="/BDP">
+      <displayName>GERENCIA DE ADMINISTRACI&#xd3;N Y TALENTO HUMANO</displayName>
+    </group>
+    <group name="JNDS" parentPath="/BDP/GSTI">
+      <displayName>JEFATURA NACIONAL DE DESARROLLO DE SISTEMAS</displayName>
+    </group>
+    <group name="SO" parentPath="/BDP/GSTI/JNDS">
+      <displayName>SOPORTE DE APLICACIONES</displayName>
+    </group>
+    <group name="CC" parentPath="/BDP/GSTI/JNDS">
+      <displayName>CONTROL DE CALIDAD</displayName>
+    </group>
+    <group name="JNS" parentPath="/BDP/GO">
+      <displayName>JEFATURA NACIONAL DE SEGUROS</displayName>
+    </group>
+    <group name="JNO" parentPath="/BDP/GO">
+      <displayName>JEFATURA NACIONAL DE OPERACIONES</displayName>
+    </group>
+    <group name="gi" parentPath="/BDP">
+      <displayName>GERENCIA DE RIESGOS INTEGRALES</displayName>
+    </group>
+    <group name="jr" parentPath="/BDP/gi">
+      <displayName>JEFATURA NACIONAL DE RIESGO OPERATIVO Y SEGURIDAD DE LA INFORMACI&#xd3;N</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>ninoska.sandoval</userName>
+      <roleName>bdp</roleName>
+      <groupName>GATH</groupName>
+      <groupParentPath>/BDP</groupParentPath>
+    </membership>
+    <membership>
+      <userName>sofia.hoyos</userName>
+      <roleName>verificadorSistemas</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>alvaro.iniguez</userName>
+      <roleName>soporte</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>marilin.choque</userName>
+      <roleName>soporte</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>karen.arteaga</userName>
+      <roleName>respControlCalidad</roleName>
+      <groupName>CC</groupName>
+      <groupParentPath>/BDP/GSTI/JNDS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>german.quisbert</userName>
+      <roleName>controlCalidad</roleName>
+      <groupName>CC</groupName>
+      <groupParentPath>/BDP/GSTI/JNDS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>edson.rejas</userName>
+      <roleName>bdp</roleName>
+      <groupName>GATH</groupName>
+      <groupParentPath>/BDP</groupParentPath>
+    </membership>
+    <membership>
+      <userName>carmen.balcazar</userName>
+      <roleName>aprobador</roleName>
+      <groupName>GATH</groupName>
+      <groupParentPath>/BDP</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ines.soruco</userName>
+      <roleName>bdp</roleName>
+      <groupName>GJF</groupName>
+      <groupParentPath>/BDP</groupParentPath>
+    </membership>
+    <membership>
+      <userName>guillermo.huampu</userName>
+      <roleName>baseDatos</roleName>
+      <groupName>JNIP</groupName>
+      <groupParentPath>/BDP/GSTI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>claudia.calderon</userName>
+      <roleName>baseDatos</roleName>
+      <groupName>JNIP</groupName>
+      <groupParentPath>/BDP/GSTI</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ivan.vargas</userName>
+      <roleName>soporte</roleName>
+      <groupName>SO</groupName>
+      <groupParentPath>/BDP/GSTI/JNDS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>mery.montalvo</userName>
+      <roleName>controlCalidad</roleName>
+      <groupName>CC</groupName>
+      <groupParentPath>/BDP/GSTI/JNDS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>christian.prado</userName>
+      <roleName>soporte</roleName>
+      <groupName>SO</groupName>
+      <groupParentPath>/BDP/GSTI/JNDS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alfredo.quisbert</userName>
+      <roleName>verificadorSistemas</roleName>
+      <groupName>GSTI</groupName>
+      <groupParentPath>/BDP</groupParentPath>
+    </membership>
+    <membership>
+      <userName>luz.torrez</userName>
+      <roleName>verificadorSistemas</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>alvaro.iniguez</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>vannesa.salcedo</userName>
+      <roleName>seguridadInf</roleName>
+      <groupName>jr</groupName>
+      <groupParentPath>/BDP/gi</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alvaro.machaca</userName>
+      <roleName>seguridadInf</roleName>
+      <groupName>jr</groupName>
+      <groupParentPath>/BDP/gi</groupParentPath>
+    </membership>
+    <membership>
+      <userName>roger.tinini</userName>
+      <roleName>controlCalidad</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>control.calidad</userName>
+      <roleName>controlCalidad</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>seguridad</userName>
+      <roleName>seguridadInf</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="SolicitudBaseDatos" version="1.0" profile="User" homePage="task-list" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Solicitud de Modificacion de Base de Datos</displayName>
+        <description>Solicitud de Modificación Manual de Base de Datos a Producción.</description>
+        <applicationPages>
+            <applicationPage customPage="custompage_tasklist" token="task-list"/>
+            <applicationPage customPage="custompage_processlistBonita" token="process-list"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="task-list">
+                <displayName>Tareas</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="process-list">
+                <displayName>Procesos</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

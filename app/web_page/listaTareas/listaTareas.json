@@ -1,0 +1,32 @@
+{
+  "id" : "listaTareas",
+  "name" : "listaTareas",
+  "type" : "page",
+  "uuid" : "59a9b23b-10e4-488b-8037-5fdb66021b0e",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1723062896238,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [ ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "4bf1ea1d-4864-4a4b-88bd-e5696df127eb",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "e0ee68e8-2842-411f-a8d0-fb58f1fbcb46",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

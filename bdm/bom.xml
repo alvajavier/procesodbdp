@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="bdp.com.bo.model.SolicitudBaseDatos">
+            <fields>
+                <field type="LONG" length="255" name="idsolicitud" nullable="false" collection="false"/>
+                <field type="LONG" length="255" name="idEmpleado" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaSolicitud" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="titulo" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="descRequerimiento" nullable="false" collection="false"/>
+                <field type="LONG" length="255" name="tipoSolicitud" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobadoArea" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aprobadoComentario" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="verificadoSistemas" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="verificadoComentario" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idRespDesarrollador" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="publicado" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idRespControlCalidad" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobadoCC" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="comentariosDesarrolloCC" nullable="true" collection="true"/>
+                <field type="BOOLEAN" length="255" name="logsCorrectos" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idRespBaseDatos" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idSeguridad" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idControlCalidadGenerico" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="bdp.com.bo.model.SolicitudObservaciones">
+            <fields>
+                <field type="LONG" length="255" name="idObservacion" nullable="false" collection="false"/>
+                <field type="LONG" length="255" name="idSolicitud" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="tipoObservacion" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaObservacion" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="bdp.com.bo.model.TipoSolicitud">
+            <fields>
+                <field type="LONG" length="255" name="idTipo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
