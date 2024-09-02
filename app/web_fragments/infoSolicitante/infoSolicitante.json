@@ -3,7 +3,7 @@
   "name" : "infoSolicitante",
   "type" : "fragment",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1721826290196,
+  "lastUpdate" : 1724084192803,
   "rows" : [
     [
       {
@@ -399,7 +399,7 @@
     "empleadoInfo" : {
       "type" : "url",
       "value" : [
-        "../API/identity/user/{{solicitud.idEmpleado}}"
+        "../API/identity/user/{{solicitud.idSolicitante}}"
       ],
       "exposed" : false
     },

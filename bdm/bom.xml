@@ -3,37 +3,67 @@
     <businessObjects>
         <businessObject qualifiedName="bdp.com.bo.model.SolicitudBaseDatos">
             <fields>
-                <field type="LONG" length="255" name="idsolicitud" nullable="false" collection="false"/>
-                <field type="LONG" length="255" name="idEmpleado" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fechaSolicitud" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="titulo" nullable="false" collection="false"/>
-                <field type="TEXT" length="255" name="descRequerimiento" nullable="false" collection="false"/>
-                <field type="LONG" length="255" name="tipoSolicitud" nullable="false" collection="false"/>
-                <field type="BOOLEAN" length="255" name="aprobadoArea" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="aprobadoComentario" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="verificadoSistemas" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="verificadoComentario" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="idRespDesarrollador" nullable="true" collection="false"/>
-                <field type="TEXT" length="255" name="publicado" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="idRespControlCalidad" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="aprobadoCC" nullable="true" collection="false"/>
-                <field type="TEXT" length="255" name="comentariosDesarrolloCC" nullable="true" collection="true"/>
-                <field type="BOOLEAN" length="255" name="logsCorrectos" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idsolicitud" nullable="false" collection="false">
+                    <description>Nro. de Solicitud</description>
+                </field>
+                <field type="LONG" length="255" name="idSolicitante" nullable="true" collection="false">
+                    <description>Identificador del Empleado</description>
+                </field>
+                <field type="STRING" length="255" name="solicitante" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaSolicitud" nullable="false" collection="false">
+                    <description>Fecha de Solicitud</description>
+                </field>
+                <field type="STRING" length="255" name="titulo" nullable="false" collection="false">
+                    <description>Titulo</description>
+                </field>
+                <field type="TEXT" length="255" name="descRequerimiento" nullable="false" collection="false">
+                    <description>Descripción</description>
+                </field>
+                <field type="LONG" length="255" name="tipoSolicitud" nullable="false" collection="false">
+                    <description>Tipo de Solicitud</description>
+                </field>
+                <field type="LONG" length="255" name="idAprobador" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="aprobador" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobadoArea" nullable="true" collection="false">
+                    <description>Aprobado por el Area</description>
+                </field>
+                <field type="STRING" length="255" name="aprobadoComentario" nullable="true" collection="false">
+                    <description>Comentario por el Area</description>
+                </field>
+                <field type="LONG" length="255" name="idVerificadorSistemas" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="verificador" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="verificadoSistemas" nullable="true" collection="false">
+                    <description>Verificado</description>
+                </field>
+                <field type="STRING" length="255" name="verificadoComentario" nullable="true" collection="false">
+                    <description>Comentario Sistemas</description>
+                </field>
+                <field type="LONG" length="255" name="idRespDesarrollador" nullable="true" collection="false">
+                    <description>Identificador Desarrollador</description>
+                </field>
+                <field type="STRING" length="255" name="desarrollador" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="publicado" nullable="true" collection="false">
+                    <description>Publicado</description>
+                </field>
+                <field type="LONG" length="255" name="idAsignadorControlCalidad" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="asignadorControlCalidad" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idRespControlCalidad" nullable="true" collection="false">
+                    <description>Identificador del Responsable de Control de Calidad</description>
+                </field>
+                <field type="STRING" length="255" name="analistaControlCalidad" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobadoCC" nullable="true" collection="false">
+                    <description>Aprobado de Control de Calidad</description>
+                </field>
+                <field type="TEXT" length="255" name="comentariosDesarrolloCC" nullable="true" collection="true">
+                    <description>Observaciones y Comentarios</description>
+                </field>
+                <field type="BOOLEAN" length="255" name="logsCorrectos" nullable="true" collection="false">
+                    <description>Logs Correctos</description>
+                </field>
                 <field type="LONG" length="255" name="idRespBaseDatos" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="analistaBaseDatos" nullable="true" collection="false"/>
                 <field type="LONG" length="255" name="idSeguridad" nullable="true" collection="false"/>
-                <field type="LONG" length="255" name="idControlCalidadGenerico" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="bdp.com.bo.model.SolicitudObservaciones">
-            <fields>
-                <field type="LONG" length="255" name="idObservacion" nullable="false" collection="false"/>
-                <field type="LONG" length="255" name="idSolicitud" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="tipoObservacion" nullable="false" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fechaObservacion" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="descripcion" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="analistaSeguridad" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

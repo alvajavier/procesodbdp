@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "899ab126-3898-48c7-8ce5-94c1f34df9dd",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1722541056662,
+  "lastUpdate" : 1724263279884,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -1664,9 +1664,11 @@
       "value" : [
         "if( $data.solicitud && $data.context ){",
         "\treturn {",
-        "\t\t//map solicitud variable to expected task contract input",
         "\t\tsolicitudInput: {",
+        "\t\t\tidAsignadorControlCalidad: $data.solicitud.idAsignadorControlCalidad !== undefined ? $data.actual_user.user_id : null,",
+        "\t\t\tasignadorControlCalidad: $data.solicitud.asignadorControlCalidad !== undefined ? $data.actual_user.user_name : null,",
         "\t\t\tidRespControlCalidad: $data.solicitud.idRespControlCalidad !== undefined ? $data.solicitud.idRespControlCalidad : null,",
+        "\t\t\tanalistaControlCalidad: $data.solicitud.analistaControlCalidad !== undefined ?$data.controCalidad_user.userName : null,",
         "\t\t\tcomentariosDesarrolloCC: $data.solicitud.comentariosDesarrolloCC !== undefined ? $data.solicitud.comentariosDesarrolloCC : null",
         "\t\t},",
         "\t\tadjuntosDocumentInput: $data.context.adjuntos_ref.map( doc => ({",
@@ -1705,6 +1707,20 @@
       "type" : "url",
       "value" : [
         "../API/identity/user/{{solicitud.idRespDesarrollador}}"
+      ],
+      "exposed" : false
+    },
+    "actual_user" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedId"
+      ],
+      "exposed" : false
+    },
+    "controCalidad_user" : {
+      "type" : "url",
+      "value" : [
+        "../API/identity/user/{{solicitud.idRespControlCalidad}}"
       ],
       "exposed" : false
     }

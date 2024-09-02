@@ -1,14 +1,5 @@
 # Example on how to use Postgres (latest available version) with a Community edition of Bonita
 services:
-  bonita-db:
-    image: bonitasoft/bonita-postgres:latest
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_PASSWORD: 12346
-    volumes:
-      - './postgres_data:/var/lib/postgresql/data'      
-    restart: always
     # Uncomment those lines to mount a volume with your dumps
     #volumes:
     #  - ~/my/test/dumps:/opt/bonita/dump
@@ -18,24 +9,20 @@ services:
   #  image: my-application-[my built environment]:[my aplication's semantic version]
   bonita:
     # image: bonita:2024.2
-    image: bdp_gprocesos-qualification:0.0.1
+    image: bdp_gprocesos-qualification:0.0.2
     ports:
       - "8085:8080"
     environment:
       - DB_VENDOR=postgres
-      - DB_HOST=bonita-db
-      - DB_PORT=5432
+      - DB_HOST=10.1.46.75
+      - DB_PORT=5435
       - DB_NAME=bonita
       - DB_USER=bonita
       - DB_PASS=bpm
-      - BIZ_DB_NAME=business_data
-      - BIZ_DB_USER=business_data
-      - BIZ_DB_PASS=bpm
       - LANG=es_ES.UTF-8
       - LANGUAGE=es_ES:es
       - LC_ALL=es_ES.UTF-8
-    restart: on-failure:2
-    depends_on:
-      bonita-db:
-        # It uses the HEALTHCHECK of the database Docker image
-        condition: service_healthy
+      - BIZ_DB_NAME=business_data
+      - BIZ_DB_USER=business_data
+      - BIZ_DB_PASS=bpm
+    restart: on-failure:2    

@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "daece5e8-6dcd-46fe-8478-b86319bb7a44",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1722538824483,
+  "lastUpdate" : 1724698486099,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -1036,7 +1036,7 @@
                         },
                         "hidden" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -1445,10 +1445,102 @@
               {
                 "type" : "component",
                 "dimension" : {
-                  "md" : 12,
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 6,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Logs Incorrectos"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "right"
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "warning"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput_Rechazar"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "6f1331e1-12bd-44f1-9c64-b3cf49e9ff20",
+                "hasValidationError" : false,
+                "id" : "pbButton"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 6,
                   "sm" : 12,
                   "xs" : 12,
-                  "lg" : 12
+                  "lg" : 6
                 },
                 "propertyValues" : {
                   "removeItem" : {
@@ -1468,7 +1560,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Aceptar"
+                    "value" : "Logs Correctos"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -1509,7 +1601,7 @@
                   },
                   "alignment" : {
                     "type" : "constant",
-                    "value" : "center"
+                    "value" : "left"
                   },
                   "dimension" : {
                     "type" : "constant",
@@ -1646,7 +1738,7 @@
         "\t\t//map solicitud variable to expected task contract input",
         "\t\tsolicitudInput: {",
         "\t\t\tcomentariosDesarrolloCC: $data.solicitud.comentariosDesarrolloCC !== undefined ? $data.solicitud.comentariosDesarrolloCC : null,",
-        "\t\t\tlogsCorrectos: $data.solicitud.logsCorrectos !== undefined ? $data.solicitud.logsCorrectos : null",
+        "\t\t\tlogsCorrectos: $data.solicitud.logsCorrectos = true",
         "\t\t},",
         "\t\tadjuntosDocumentInput: $data.context.adjuntos_ref.map( doc => ({",
         "\t\t\tid : doc.id ? doc.id.toString() : null,",
@@ -1701,6 +1793,44 @@
       "type" : "url",
       "value" : [
         "../API/identity/user/{{solicitud.idRespControlCalidad}}"
+      ],
+      "exposed" : false
+    },
+    "formOutput_Rechazar" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.solicitud && $data.context ){",
+        "\treturn {",
+        "\t\t//map solicitud variable to expected task contract input",
+        "\t\tsolicitudInput: {",
+        "\t\t\tcomentariosDesarrolloCC: $data.solicitud.comentariosDesarrolloCC !== undefined ? $data.solicitud.comentariosDesarrolloCC : null,",
+        "\t\t\tlogsCorrectos: $data.solicitud.logsCorrectos =false",
+        "\t\t},",
+        "\t\tadjuntosDocumentInput: $data.context.adjuntos_ref.map( doc => ({",
+        "\t\t\tid : doc.id ? doc.id.toString() : null,",
+        "\t\t\tfilename : doc.newValue && doc.newValue.filename ? doc.newValue.filename : null,",
+        "\t\t\ttempPath : doc.newValue && doc.newValue.tempPath ? doc.newValue.tempPath : null,",
+        "\t\t\tcontentType : doc.newValue && doc.newValue.contentType ? doc.newValue.contentType : null",
+        "\t\t})),",
+        "\t\t//map solicitud variable to expected task contract input",
+        "\t\tsolicitudInput1: {",
+        "\t\t\tidsolicitud: $data.solicitud.idsolicitud !== undefined ? $data.solicitud.idsolicitud : null,",
+        "\t\t\tidEmpleado: $data.solicitud.idEmpleado !== undefined ? $data.solicitud.idEmpleado : null,",
+        "\t\t\tfechaSolicitud: $data.solicitud.fechaSolicitud !== undefined ? $data.solicitud.fechaSolicitud : null,",
+        "\t\t\ttitulo: $data.solicitud.titulo !== undefined ? $data.solicitud.titulo : null,",
+        "\t\t\tdescRequerimiento: $data.solicitud.descRequerimiento !== undefined ? $data.solicitud.descRequerimiento : null,",
+        "\t\t\ttipoSolicitud: $data.solicitud.tipoSolicitud !== undefined ? $data.solicitud.tipoSolicitud : null,",
+        "\t\t\taprobadoArea: $data.solicitud.aprobadoArea !== undefined ? $data.solicitud.aprobadoArea : null,",
+        "\t\t\taprobadoComentario: $data.solicitud.aprobadoComentario !== undefined ? $data.solicitud.aprobadoComentario : null,",
+        "\t\t\tverificadoSistemas: $data.solicitud.verificadoSistemas !== undefined ? $data.solicitud.verificadoSistemas : null,",
+        "\t\t\tverificadoComentario: $data.solicitud.verificadoComentario !== undefined ? $data.solicitud.verificadoComentario : null,",
+        "\t\t\tidRespDesarrollador: $data.solicitud.idRespDesarrollador !== undefined ? $data.solicitud.idRespDesarrollador : null,",
+        "\t\t\tidRespControlCalidad: $data.solicitud.idRespControlCalidad !== undefined ? $data.solicitud.idRespControlCalidad : null,",
+        "\t\t\taprobadoCC: $data.solicitud.aprobadoCC !== undefined ? $data.solicitud.aprobadoCC : null,",
+        "\t\t\tcomentariosDesarrolloCC: $data.solicitud.comentariosDesarrolloCC !== undefined ? $data.solicitud.comentariosDesarrolloCC : null",
+        "\t\t}",
+        "\t}",
+        "}"
       ],
       "exposed" : false
     }

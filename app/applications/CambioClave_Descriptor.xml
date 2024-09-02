@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="CambioClave" version="1.0" profile="User" homePage="CambioClave" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Cambio de Clave de Acceso</displayName>
+        <description>Cambio de la Clave de Acceso al sistema.</description>
+        <applicationPages>
+            <applicationPage customPage="custompage_tasklist" token="CambioClave"/>
+            <applicationPage customPage="custompage_processlistBonita" token="process-list"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="CambioClave">
+                <displayName>Tareas</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="process-list">
+                <displayName>Procesos</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

@@ -26,7 +26,7 @@
         <metaData name="Facebook"/>
       </metaDatas>
       <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <password encrypted="true">bpm</password>
     </user>
     <user userName="luz.torrez">
       <firstName>Luz</firstName>
@@ -751,6 +751,46 @@
     <membership>
       <userName>seguridad</userName>
       <roleName>seguridadInf</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>roger.tinini</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>edson.rejas</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>vannesa.salcedo</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>sofia.hoyos</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>ninoska.sandoval</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>mery.montalvo</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>luz.torrez</userName>
+      <roleName>bdp</roleName>
+      <groupName>BDP</groupName>
+    </membership>
+    <membership>
+      <userName>marilin.choque</userName>
+      <roleName>bdp</roleName>
       <groupName>BDP</groupName>
     </membership>
   </memberships>

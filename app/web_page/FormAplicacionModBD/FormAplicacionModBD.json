@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "672ccc23-c96c-4b0f-a8a4-682438afb629",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1722612708594,
+  "lastUpdate" : 1724698284818,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -1560,7 +1560,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Enviar"
+                    "value" : "Ejecutado, Favor Revisar los logs"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -1729,6 +1729,8 @@
         "\treturn {",
         "\t\t//map solicitud variable to expected task contract input",
         "\t\tsolicitudInput: {",
+        "\t\t    idRespBaseDatos: $data.solicitud.idRespBaseDatos !== undefined ? $data.actual_user.user_id : null,",
+        "\t       analistaBaseDatos: $data.solicitud.analistaBaseDatos !== undefined ? $data.actual_user.user_name : null,",
         "\t\t\tcomentariosDesarrolloCC: $data.solicitud.comentariosDesarrolloCC !== undefined ? $data.solicitud.comentariosDesarrolloCC : null",
         "\t\t},",
         "\t\tadjuntosDocumentInput: $data.context.adjuntos_ref.map( doc => ({",
@@ -1767,6 +1769,13 @@
       "type" : "url",
       "value" : [
         "../API/identity/user/{{solicitud.idRespControlCalidad}}"
+      ],
+      "exposed" : false
+    },
+    "actual_user" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedId"
       ],
       "exposed" : false
     }
